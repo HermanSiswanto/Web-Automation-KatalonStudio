@@ -1,0 +1,11 @@
+# Katalon Studio default outputs
+/bin/
+/Libs/
+/.settings/
+/.classpath
+/.project
+/Reports/
+/Profiles/
+/.cache/
+/tmp/
+/Execution/
