@@ -1,0 +1,654 @@
+2026-09-18 15:29:47.044 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: /Applications/Katalon Studio.app/Contents/Eclipse/configuration/org.eclipse.osgi/165/0/.cp/resources/logback/logback-execution.xml
+2026-09-18 15:29:47.046 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: /Users/giyu/Documents/Katalon/MyProjects/QA-Automation-Project/Include/config/log.properties
+2026-09-18 15:29:47.277 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/SauceDemoWeb
+2026-09-18 15:29:47.307 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Herman Testing
+2026-09-18 15:29:47.307 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = QA-Automation-Challenge
+2026-09-18 15:29:47.307 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = giyu - localhost
+2026-09-18 15:29:47.307 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Mac OS X 64bit
+2026-09-18 15:29:47.308 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 127.0.0.1
+2026-09-18 15:29:47.308 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 11.5.0
+2026-09-18 15:29:47.347 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-09-18 15:29:47.347 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Smoke/TC_Smoke
+2026-09-18 15:29:47.433 DEBUG testcase.TC_Smoke                        - 1: runFeatureFile("Include/features/authentication/Login.feature")
+2026-09-18 15:29:47.462 INFO  c.k.k.c.c.k.CucumberBuiltinKeywords      - Starting run keyword runFeatureFile: 'Include/features/authentication/Login.feature' and extract report to folder: '/Users/giyu/Documents/Katalon/MyProjects/QA-Automation-Project/Reports/20260918_152945/SauceDemoWeb/20260918_152945/cucumber_report/1789720187459'...
+2026-09-18 15:29:47.815 INFO  i.cucumber.core.plugin.CucumberReporter  - --------------------
+2026-09-18 15:29:47.815 INFO  i.cucumber.core.plugin.CucumberReporter  - START SCENARIO Login with valid credentials
+2026-09-18 15:29:47.817 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP Before scenario: setUp
+2026-09-18 15:29:47.897 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-09-18 15:29:47.900 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['prefs', '{credentials_enable_service=false, profile.password_manager_enabled=false, profile.password_manager_leak_detection=false}']
+2026-09-18 15:29:47.914 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-09-18 15:29:49.857 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 37dd4528b95fe60f18f73cfe38ed5047
+2026-09-18 15:29:49.857 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 153.0.8010.52
+2026-09-18 15:29:49.858 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-09-18 15:29:49.858 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.46.0
+2026-09-18 15:29:49.860 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-09-18 15:29:50.573 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user is on the login page
+2026-09-18 15:29:50.605 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user is on the login page
+2026-09-18 15:29:50.607 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user logs in with username "standard_user" and password "secret_sauce"
+2026-09-18 15:29:52.709 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user logs in with username "standard_user" and password "secret_sauce"
+2026-09-18 15:29:52.711 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user should be redirected to the inventory page
+2026-09-18 15:29:53.425 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user should be redirected to the inventory page
+2026-09-18 15:29:53.427 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP After scenario: tearDown
+2026-09-18 15:29:53.522 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ SCENARIO Login with valid credentials
+2026-09-18 15:29:53.522 INFO  i.cucumber.core.plugin.CucumberReporter  - END SCENARIO Login with valid credentials
+2026-09-18 15:29:53.523 INFO  i.cucumber.core.plugin.CucumberReporter  - --------------------
+2026-09-18 15:29:53.523 INFO  i.cucumber.core.plugin.CucumberReporter  - START SCENARIO Login with invalid credentials
+2026-09-18 15:29:53.524 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP Before scenario: setUp
+2026-09-18 15:29:53.525 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-09-18 15:29:53.525 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['prefs', '{credentials_enable_service=false, profile.password_manager_enabled=false, profile.password_manager_leak_detection=false}']
+2026-09-18 15:29:53.526 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-09-18 15:29:54.355 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 38682477a1a66101e8fa35466b9e74c8
+2026-09-18 15:29:54.355 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 153.0.8010.52
+2026-09-18 15:29:54.355 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-09-18 15:29:54.356 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.46.0
+2026-09-18 15:29:54.356 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-09-18 15:29:54.957 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user is on the login page
+2026-09-18 15:29:54.964 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user is on the login page
+2026-09-18 15:29:54.965 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user logs in with username "standard_user" and password "wrong_pass"
+2026-09-18 15:29:57.062 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user logs in with username "standard_user" and password "wrong_pass"
+2026-09-18 15:29:57.063 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP login should fail with error message "Epic sadface: Username and password do not match any user in this service"
+2026-09-18 15:29:57.743 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ login should fail with error message "Epic sadface: Username and password do not match any user in this service"
+2026-09-18 15:29:57.745 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP After scenario: tearDown
+2026-09-18 15:29:57.836 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ SCENARIO Login with invalid credentials
+2026-09-18 15:29:57.837 INFO  i.cucumber.core.plugin.CucumberReporter  - END SCENARIO Login with invalid credentials
+2026-09-18 15:29:57.838 INFO  i.cucumber.core.plugin.CucumberReporter  - --------------------
+2026-09-18 15:29:57.838 INFO  i.cucumber.core.plugin.CucumberReporter  - START SCENARIO Login with invalid credentials
+2026-09-18 15:29:57.838 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP Before scenario: setUp
+2026-09-18 15:29:57.839 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-09-18 15:29:57.839 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['prefs', '{credentials_enable_service=false, profile.password_manager_enabled=false, profile.password_manager_leak_detection=false}']
+2026-09-18 15:29:57.840 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-09-18 15:29:58.646 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 8959b5930acfe30079baf5ed9b4f76d0
+2026-09-18 15:29:58.646 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 153.0.8010.52
+2026-09-18 15:29:58.646 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-09-18 15:29:58.647 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.46.0
+2026-09-18 15:29:58.647 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-09-18 15:29:59.267 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user is on the login page
+2026-09-18 15:29:59.273 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user is on the login page
+2026-09-18 15:29:59.273 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user logs in with username "locked_out_user" and password "secret_sauce"
+2026-09-18 15:30:01.383 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user logs in with username "locked_out_user" and password "secret_sauce"
+2026-09-18 15:30:01.383 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP login should fail with error message "Epic sadface: Sorry, this user has been locked out."
+2026-09-18 15:30:02.064 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ login should fail with error message "Epic sadface: Sorry, this user has been locked out."
+2026-09-18 15:30:02.065 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP After scenario: tearDown
+2026-09-18 15:30:02.154 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ SCENARIO Login with invalid credentials
+2026-09-18 15:30:02.155 INFO  i.cucumber.core.plugin.CucumberReporter  - END SCENARIO Login with invalid credentials
+2026-09-18 15:30:02.156 INFO  i.cucumber.core.plugin.CucumberReporter  - --------------------
+2026-09-18 15:30:02.156 INFO  i.cucumber.core.plugin.CucumberReporter  - START SCENARIO Login with invalid credentials
+2026-09-18 15:30:02.156 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP Before scenario: setUp
+2026-09-18 15:30:02.157 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-09-18 15:30:02.158 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['prefs', '{credentials_enable_service=false, profile.password_manager_enabled=false, profile.password_manager_leak_detection=false}']
+2026-09-18 15:30:02.159 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-09-18 15:30:02.981 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 6b43bb3a442324e8d4c3bc7e79def43a
+2026-09-18 15:30:02.981 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 153.0.8010.52
+2026-09-18 15:30:02.981 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-09-18 15:30:02.981 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.46.0
+2026-09-18 15:30:02.982 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-09-18 15:30:03.612 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user is on the login page
+2026-09-18 15:30:03.617 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user is on the login page
+2026-09-18 15:30:03.618 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user logs in with username "" and password "secret_sauce"
+2026-09-18 15:30:05.711 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user logs in with username "" and password "secret_sauce"
+2026-09-18 15:30:05.712 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP login should fail with error message "Epic sadface: Username is required"
+2026-09-18 15:30:06.370 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ login should fail with error message "Epic sadface: Username is required"
+2026-09-18 15:30:06.371 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP After scenario: tearDown
+2026-09-18 15:30:06.456 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ SCENARIO Login with invalid credentials
+2026-09-18 15:30:06.456 INFO  i.cucumber.core.plugin.CucumberReporter  - END SCENARIO Login with invalid credentials
+2026-09-18 15:30:06.457 INFO  i.cucumber.core.plugin.CucumberReporter  - --------------------
+2026-09-18 15:30:06.457 INFO  i.cucumber.core.plugin.CucumberReporter  - START SCENARIO Login with invalid credentials
+2026-09-18 15:30:06.458 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP Before scenario: setUp
+2026-09-18 15:30:06.458 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-09-18 15:30:06.458 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['prefs', '{credentials_enable_service=false, profile.password_manager_enabled=false, profile.password_manager_leak_detection=false}']
+2026-09-18 15:30:06.459 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-09-18 15:30:07.233 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = b95dba002c20a021c72a215b15a626e6
+2026-09-18 15:30:07.233 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 153.0.8010.52
+2026-09-18 15:30:07.234 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-09-18 15:30:07.234 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.46.0
+2026-09-18 15:30:07.234 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-09-18 15:30:07.826 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user is on the login page
+2026-09-18 15:30:07.832 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user is on the login page
+2026-09-18 15:30:07.833 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user logs in with username "standard_user" and password ""
+2026-09-18 15:30:09.940 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user logs in with username "standard_user" and password ""
+2026-09-18 15:30:09.940 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP login should fail with error message "Epic sadface: Password is required"
+2026-09-18 15:30:10.598 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ login should fail with error message "Epic sadface: Password is required"
+2026-09-18 15:30:10.599 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP After scenario: tearDown
+2026-09-18 15:30:10.689 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ SCENARIO Login with invalid credentials
+2026-09-18 15:30:10.690 INFO  i.cucumber.core.plugin.CucumberReporter  - END SCENARIO Login with invalid credentials
+2026-09-18 15:30:10.691 INFO  i.cucumber.core.plugin.CucumberReporter  - --------------------
+2026-09-18 15:30:10.691 INFO  i.cucumber.core.plugin.CucumberReporter  - START SCENARIO Login with invalid credentials
+2026-09-18 15:30:10.691 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP Before scenario: setUp
+2026-09-18 15:30:10.691 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-09-18 15:30:10.691 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['prefs', '{credentials_enable_service=false, profile.password_manager_enabled=false, profile.password_manager_leak_detection=false}']
+2026-09-18 15:30:10.692 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-09-18 15:30:11.485 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 1055980fafb85d5e81e03c55436c1dd4
+2026-09-18 15:30:11.486 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 153.0.8010.52
+2026-09-18 15:30:11.486 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-09-18 15:30:11.486 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.46.0
+2026-09-18 15:30:11.486 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-09-18 15:30:12.143 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user is on the login page
+2026-09-18 15:30:12.149 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user is on the login page
+2026-09-18 15:30:12.150 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user logs in with username "" and password ""
+2026-09-18 15:30:14.144 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user logs in with username "" and password ""
+2026-09-18 15:30:14.145 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP login should fail with error message "Epic sadface: Username is required"
+2026-09-18 15:30:14.823 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ login should fail with error message "Epic sadface: Username is required"
+2026-09-18 15:30:14.825 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP After scenario: tearDown
+2026-09-18 15:30:14.916 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ SCENARIO Login with invalid credentials
+2026-09-18 15:30:14.917 INFO  i.cucumber.core.plugin.CucumberReporter  - END SCENARIO Login with invalid credentials
+
+6 scenarios ([32m6 passed[39m)
+30 steps ([32m30 passed[39m)
+0m 27.276s
+2026-09-18 15:30:14.950 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Smoke/TC_Smoke
+2026-09-18 15:30:14.952 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-09-18 15:30:14.952 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/EndToEnd/TC_E2E
+2026-09-18 15:30:14.961 DEBUG testcase.TC_E2E                          - 1: runFeatureFile("Include/features/checkoutComplete/CheckoutComplete.feature")
+2026-09-18 15:30:14.962 INFO  c.k.k.c.c.k.CucumberBuiltinKeywords      - Starting run keyword runFeatureFile: 'Include/features/checkoutComplete/CheckoutComplete.feature' and extract report to folder: '/Users/giyu/Documents/Katalon/MyProjects/QA-Automation-Project/Reports/20260918_152945/SauceDemoWeb/20260918_152945/cucumber_report/1789720214961'...
+2026-09-18 15:30:15.029 INFO  i.cucumber.core.plugin.CucumberReporter  - --------------------
+2026-09-18 15:30:15.029 INFO  i.cucumber.core.plugin.CucumberReporter  - START SCENARIO Show successful order confirmation annd return to inventory
+2026-09-18 15:30:15.029 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP Before scenario: setUp
+2026-09-18 15:30:15.030 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-09-18 15:30:15.030 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['prefs', '{credentials_enable_service=false, profile.password_manager_enabled=false, profile.password_manager_leak_detection=false}']
+2026-09-18 15:30:15.031 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-09-18 15:30:15.831 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = ba3a96c10f7e8d46be81a3e7f65a2285
+2026-09-18 15:30:15.831 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 153.0.8010.52
+2026-09-18 15:30:15.832 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-09-18 15:30:15.832 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.46.0
+2026-09-18 15:30:15.832 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-09-18 15:30:16.442 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user is logged in with valid credentials
+2026-09-18 15:30:19.312 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user is logged in with valid credentials
+2026-09-18 15:30:19.313 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user adds product "Sauce Labs Backpack" to the cart
+2026-09-18 15:30:20.271 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user adds product "Sauce Labs Backpack" to the cart
+2026-09-18 15:30:20.271 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user clicks on shopping cart icon
+2026-09-18 15:30:21.236 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user clicks on shopping cart icon
+2026-09-18 15:30:21.237 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user clicks the Checkout button
+2026-09-18 15:30:21.740 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user clicks the Checkout button
+2026-09-18 15:30:21.741 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user submits checkout information with first name "Herman", last name "Siswanto", and postal code "12345"
+2026-09-18 15:30:24.931 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user submits checkout information with first name "Herman", last name "Siswanto", and postal code "12345"
+2026-09-18 15:30:24.932 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user should be on the Checkout Overview page
+2026-09-18 15:30:25.609 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user should be on the Checkout Overview page
+2026-09-18 15:30:25.611 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user finishes checkout from the overview page
+2026-09-18 15:30:26.136 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user finishes checkout from the overview page
+2026-09-18 15:30:26.137 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user should be on the Checkout Complete page
+2026-09-18 15:30:26.812 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user should be on the Checkout Complete page
+2026-09-18 15:30:26.814 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP order confirmation should be "Thank you for your order!"
+2026-09-18 15:30:27.273 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ order confirmation should be "Thank you for your order!"
+2026-09-18 15:30:27.275 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user clicks the Back Home button
+2026-09-18 15:30:27.751 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user clicks the Back Home button
+2026-09-18 15:30:27.752 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user should be redirected to the inventory page
+2026-09-18 15:30:28.395 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user should be redirected to the inventory page
+2026-09-18 15:30:28.396 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP After scenario: tearDown
+2026-09-18 15:30:28.490 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ SCENARIO Show successful order confirmation annd return to inventory
+2026-09-18 15:30:28.490 INFO  i.cucumber.core.plugin.CucumberReporter  - END SCENARIO Show successful order confirmation annd return to inventory
+
+1 scenarios ([32m1 passed[39m)
+13 steps ([32m13 passed[39m)
+0m 13.524s
+2026-09-18 15:30:28.499 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/EndToEnd/TC_E2E
+2026-09-18 15:30:28.500 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-09-18 15:30:28.500 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Regression/TC_Regression
+2026-09-18 15:30:28.510 DEBUG testcase.TC_Regression                   - 1: runFeatureFile("Include/features/inventory/Inventory.feature")
+2026-09-18 15:30:28.510 INFO  c.k.k.c.c.k.CucumberBuiltinKeywords      - Starting run keyword runFeatureFile: 'Include/features/inventory/Inventory.feature' and extract report to folder: '/Users/giyu/Documents/Katalon/MyProjects/QA-Automation-Project/Reports/20260918_152945/SauceDemoWeb/20260918_152945/cucumber_report/1789720228510'...
+2026-09-18 15:30:28.559 INFO  i.cucumber.core.plugin.CucumberReporter  - --------------------
+2026-09-18 15:30:28.559 INFO  i.cucumber.core.plugin.CucumberReporter  - START SCENARIO Verify product details and image integrity in catalog
+2026-09-18 15:30:28.559 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP Before scenario: setUp
+2026-09-18 15:30:28.560 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-09-18 15:30:28.560 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['prefs', '{credentials_enable_service=false, profile.password_manager_enabled=false, profile.password_manager_leak_detection=false}']
+2026-09-18 15:30:28.560 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-09-18 15:30:29.379 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = c9f313150054c97331d186a1750889b5
+2026-09-18 15:30:29.379 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 153.0.8010.52
+2026-09-18 15:30:29.379 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-09-18 15:30:29.379 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.46.0
+2026-09-18 15:30:29.379 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-09-18 15:30:30.040 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user is logged in with valid credentials
+2026-09-18 15:30:32.794 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user is logged in with valid credentials
+2026-09-18 15:30:32.795 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user should be redirected to the inventory page
+2026-09-18 15:30:33.252 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user should be redirected to the inventory page
+2026-09-18 15:30:33.253 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user verifies product image for "Sauce Labs Backpack" is displayed correctly
+2026-09-18 15:30:33.747 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user verifies product image for "Sauce Labs Backpack" is displayed correctly
+2026-09-18 15:30:33.748 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user should see product "Sauce Labs Backpack" details with price "$29.99" and description "carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection."
+2026-09-18 15:30:34.686 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user should see product "Sauce Labs Backpack" details with price "$29.99" and description "carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection."
+2026-09-18 15:30:34.687 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user should see total 6 products in the catalog
+2026-09-18 15:30:35.168 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user should see total 6 products in the catalog
+2026-09-18 15:30:35.170 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP After scenario: tearDown
+2026-09-18 15:30:35.261 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ SCENARIO Verify product details and image integrity in catalog
+2026-09-18 15:30:35.261 INFO  i.cucumber.core.plugin.CucumberReporter  - END SCENARIO Verify product details and image integrity in catalog
+2026-09-18 15:30:35.262 INFO  i.cucumber.core.plugin.CucumberReporter  - --------------------
+2026-09-18 15:30:35.262 INFO  i.cucumber.core.plugin.CucumberReporter  - START SCENARIO Add multiple products to the cart
+2026-09-18 15:30:35.263 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP Before scenario: setUp
+2026-09-18 15:30:35.263 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-09-18 15:30:35.263 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['prefs', '{credentials_enable_service=false, profile.password_manager_enabled=false, profile.password_manager_leak_detection=false}']
+2026-09-18 15:30:35.264 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-09-18 15:30:36.066 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 6c05d934017c3dcdf5b3503f61cba5eb
+2026-09-18 15:30:36.067 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 153.0.8010.52
+2026-09-18 15:30:36.067 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-09-18 15:30:36.067 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.46.0
+2026-09-18 15:30:36.067 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-09-18 15:30:36.691 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user is logged in with valid credentials
+2026-09-18 15:30:39.544 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user is logged in with valid credentials
+2026-09-18 15:30:39.545 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user should be redirected to the inventory page
+2026-09-18 15:30:39.992 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user should be redirected to the inventory page
+2026-09-18 15:30:39.993 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user adds the following products to the cart:
+2026-09-18 15:30:42.853 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user adds the following products to the cart:
+2026-09-18 15:30:42.854 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP After scenario: tearDown
+2026-09-18 15:30:42.942 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ SCENARIO Add multiple products to the cart
+2026-09-18 15:30:42.942 INFO  i.cucumber.core.plugin.CucumberReporter  - END SCENARIO Add multiple products to the cart
+2026-09-18 15:30:42.943 INFO  i.cucumber.core.plugin.CucumberReporter  - --------------------
+2026-09-18 15:30:42.943 INFO  i.cucumber.core.plugin.CucumberReporter  - START SCENARIO Add and remove product from cart via inventory page
+2026-09-18 15:30:42.943 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP Before scenario: setUp
+2026-09-18 15:30:42.943 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-09-18 15:30:42.943 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['prefs', '{credentials_enable_service=false, profile.password_manager_enabled=false, profile.password_manager_leak_detection=false}']
+2026-09-18 15:30:42.944 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-09-18 15:30:43.748 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = e2406e7e8be91b0e763dc07e204f980f
+2026-09-18 15:30:43.748 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 153.0.8010.52
+2026-09-18 15:30:43.748 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-09-18 15:30:43.748 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.46.0
+2026-09-18 15:30:43.748 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-09-18 15:30:44.389 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user is logged in with valid credentials
+2026-09-18 15:30:47.230 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user is logged in with valid credentials
+2026-09-18 15:30:47.232 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user should be redirected to the inventory page
+2026-09-18 15:30:47.700 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user should be redirected to the inventory page
+2026-09-18 15:30:47.701 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user adds product "Sauce Labs Backpack" to the cart
+2026-09-18 15:30:48.646 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user adds product "Sauce Labs Backpack" to the cart
+2026-09-18 15:30:48.647 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user removes product "Sauce Labs Backpack" from the inventory page
+2026-09-18 15:30:51.383 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - Unable to find the element located by 'By.xpath: //div[contains(@class, 'inventory_item_description')][.//div[contains(@class, 'inventory_item_name') and text()='Sauce Labs Backpack']]//button[text()='Remove']'. Please recheck the objects properties to make sure the desired element is located. 
+2026-09-18 15:30:51.395 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user removes product "Sauce Labs Backpack" from the inventory page
+2026-09-18 15:30:51.397 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP After scenario: tearDown
+2026-09-18 15:30:51.486 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ SCENARIO Add and remove product from cart via inventory page
+2026-09-18 15:30:51.486 INFO  i.cucumber.core.plugin.CucumberReporter  - END SCENARIO Add and remove product from cart via inventory page
+2026-09-18 15:30:51.487 INFO  i.cucumber.core.plugin.CucumberReporter  - --------------------
+2026-09-18 15:30:51.487 INFO  i.cucumber.core.plugin.CucumberReporter  - START SCENARIO Sort products catalog
+2026-09-18 15:30:51.487 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP Before scenario: setUp
+2026-09-18 15:30:51.488 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-09-18 15:30:51.488 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['prefs', '{credentials_enable_service=false, profile.password_manager_enabled=false, profile.password_manager_leak_detection=false}']
+2026-09-18 15:30:51.488 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-09-18 15:30:52.290 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 75ca576b69b59a314262cb7a03e67535
+2026-09-18 15:30:52.291 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 153.0.8010.52
+2026-09-18 15:30:52.291 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-09-18 15:30:52.291 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.46.0
+2026-09-18 15:30:52.291 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-09-18 15:30:52.928 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user is logged in with valid credentials
+2026-09-18 15:30:55.680 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user is logged in with valid credentials
+2026-09-18 15:30:55.682 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user should be redirected to the inventory page
+2026-09-18 15:30:56.151 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user should be redirected to the inventory page
+2026-09-18 15:30:56.152 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user sorts the products by "Name (A to Z)"
+2026-09-18 15:30:56.894 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user sorts the products by "Name (A to Z)"
+2026-09-18 15:30:56.895 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user should see products sorted by "Name A to Z"
+2026-09-18 15:30:57.376 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user should see products sorted by "Name A to Z"
+2026-09-18 15:30:57.376 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP After scenario: tearDown
+2026-09-18 15:30:57.462 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ SCENARIO Sort products catalog
+2026-09-18 15:30:57.463 INFO  i.cucumber.core.plugin.CucumberReporter  - END SCENARIO Sort products catalog
+2026-09-18 15:30:57.463 INFO  i.cucumber.core.plugin.CucumberReporter  - --------------------
+2026-09-18 15:30:57.463 INFO  i.cucumber.core.plugin.CucumberReporter  - START SCENARIO Sort products catalog
+2026-09-18 15:30:57.464 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP Before scenario: setUp
+2026-09-18 15:30:57.464 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-09-18 15:30:57.464 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['prefs', '{credentials_enable_service=false, profile.password_manager_enabled=false, profile.password_manager_leak_detection=false}']
+2026-09-18 15:30:57.465 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-09-18 15:30:58.249 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 519a5af2fadf9cd224e1b5a1d7cc439f
+2026-09-18 15:30:58.250 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 153.0.8010.52
+2026-09-18 15:30:58.250 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-09-18 15:30:58.250 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.46.0
+2026-09-18 15:30:58.250 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-09-18 15:30:58.901 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user is logged in with valid credentials
+2026-09-18 15:31:01.716 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user is logged in with valid credentials
+2026-09-18 15:31:01.717 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user should be redirected to the inventory page
+2026-09-18 15:31:02.181 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user should be redirected to the inventory page
+2026-09-18 15:31:02.182 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user sorts the products by "Name (Z to A)"
+2026-09-18 15:31:02.936 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user sorts the products by "Name (Z to A)"
+2026-09-18 15:31:02.937 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user should see products sorted by "Name Z to A"
+2026-09-18 15:31:03.635 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user should see products sorted by "Name Z to A"
+2026-09-18 15:31:03.636 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP After scenario: tearDown
+2026-09-18 15:31:03.723 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ SCENARIO Sort products catalog
+2026-09-18 15:31:03.724 INFO  i.cucumber.core.plugin.CucumberReporter  - END SCENARIO Sort products catalog
+2026-09-18 15:31:03.724 INFO  i.cucumber.core.plugin.CucumberReporter  - --------------------
+2026-09-18 15:31:03.724 INFO  i.cucumber.core.plugin.CucumberReporter  - START SCENARIO Sort products catalog
+2026-09-18 15:31:03.724 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP Before scenario: setUp
+2026-09-18 15:31:03.725 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-09-18 15:31:03.725 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['prefs', '{credentials_enable_service=false, profile.password_manager_enabled=false, profile.password_manager_leak_detection=false}']
+2026-09-18 15:31:03.725 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-09-18 15:31:04.567 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = f93033d83152d217b33663e748577dcc
+2026-09-18 15:31:04.567 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 153.0.8010.52
+2026-09-18 15:31:04.567 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-09-18 15:31:04.567 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.46.0
+2026-09-18 15:31:04.567 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-09-18 15:31:05.223 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user is logged in with valid credentials
+2026-09-18 15:31:08.000 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user is logged in with valid credentials
+2026-09-18 15:31:08.001 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user should be redirected to the inventory page
+2026-09-18 15:31:08.467 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user should be redirected to the inventory page
+2026-09-18 15:31:08.468 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user sorts the products by "Price (low to high)"
+2026-09-18 15:31:09.227 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user sorts the products by "Price (low to high)"
+2026-09-18 15:31:09.228 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user should see products sorted by "Price low to high"
+2026-09-18 15:31:09.912 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user should see products sorted by "Price low to high"
+2026-09-18 15:31:09.913 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP After scenario: tearDown
+2026-09-18 15:31:10.001 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ SCENARIO Sort products catalog
+2026-09-18 15:31:10.001 INFO  i.cucumber.core.plugin.CucumberReporter  - END SCENARIO Sort products catalog
+2026-09-18 15:31:10.002 INFO  i.cucumber.core.plugin.CucumberReporter  - --------------------
+2026-09-18 15:31:10.002 INFO  i.cucumber.core.plugin.CucumberReporter  - START SCENARIO Sort products catalog
+2026-09-18 15:31:10.002 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP Before scenario: setUp
+2026-09-18 15:31:10.003 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-09-18 15:31:10.003 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['prefs', '{credentials_enable_service=false, profile.password_manager_enabled=false, profile.password_manager_leak_detection=false}']
+2026-09-18 15:31:10.003 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-09-18 15:31:10.797 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 9e53b6261b7ea47b16036fe94ddac5f5
+2026-09-18 15:31:10.798 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 153.0.8010.52
+2026-09-18 15:31:10.798 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-09-18 15:31:10.798 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.46.0
+2026-09-18 15:31:10.799 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-09-18 15:31:11.461 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user is logged in with valid credentials
+2026-09-18 15:31:14.231 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user is logged in with valid credentials
+2026-09-18 15:31:14.232 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user should be redirected to the inventory page
+2026-09-18 15:31:14.705 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user should be redirected to the inventory page
+2026-09-18 15:31:14.706 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user sorts the products by "Price (high to low)"
+2026-09-18 15:31:15.452 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user sorts the products by "Price (high to low)"
+2026-09-18 15:31:15.453 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user should see products sorted by "Price high to low"
+2026-09-18 15:31:16.150 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user should see products sorted by "Price high to low"
+2026-09-18 15:31:16.151 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP After scenario: tearDown
+2026-09-18 15:31:16.247 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ SCENARIO Sort products catalog
+2026-09-18 15:31:16.247 INFO  i.cucumber.core.plugin.CucumberReporter  - END SCENARIO Sort products catalog
+
+7 scenarios ([32m7 passed[39m)
+42 steps ([32m42 passed[39m)
+0m 47.733s
+2026-09-18 15:31:16.257 DEBUG testcase.TC_Regression                   - 2: runFeatureFile("Include/features/cart/Cart.feature")
+2026-09-18 15:31:16.257 INFO  c.k.k.c.c.k.CucumberBuiltinKeywords      - Starting run keyword runFeatureFile: 'Include/features/cart/Cart.feature' and extract report to folder: '/Users/giyu/Documents/Katalon/MyProjects/QA-Automation-Project/Reports/20260918_152945/SauceDemoWeb/20260918_152945/cucumber_report/1789720276257'...
+2026-09-18 15:31:16.321 INFO  i.cucumber.core.plugin.CucumberReporter  - --------------------
+2026-09-18 15:31:16.321 INFO  i.cucumber.core.plugin.CucumberReporter  - START SCENARIO Verify product is displayed in the cart
+2026-09-18 15:31:16.322 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP Before scenario: setUp
+2026-09-18 15:31:16.322 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-09-18 15:31:16.322 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['prefs', '{credentials_enable_service=false, profile.password_manager_enabled=false, profile.password_manager_leak_detection=false}']
+2026-09-18 15:31:16.323 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-09-18 15:31:17.129 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = b2edeb2038413c7956036e0aea761315
+2026-09-18 15:31:17.129 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 153.0.8010.52
+2026-09-18 15:31:17.129 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-09-18 15:31:17.129 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.46.0
+2026-09-18 15:31:17.129 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-09-18 15:31:17.761 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user is logged in with valid credentials
+2026-09-18 15:31:20.529 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user is logged in with valid credentials
+2026-09-18 15:31:20.530 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user should be redirected to the inventory page
+2026-09-18 15:31:21.000 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user should be redirected to the inventory page
+2026-09-18 15:31:21.001 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user adds product "Sauce Labs Backpack" to the cart
+2026-09-18 15:31:21.951 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user adds product "Sauce Labs Backpack" to the cart
+2026-09-18 15:31:21.952 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user clicks on shopping cart icon
+2026-09-18 15:31:22.926 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user clicks on shopping cart icon
+2026-09-18 15:31:22.927 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user should be on the cart page
+2026-09-18 15:31:23.394 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user should be on the cart page
+2026-09-18 15:31:23.395 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user should see product name "Sauce Labs Backpack" and price "$29.99" in the cart
+2026-09-18 15:31:24.334 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user should see product name "Sauce Labs Backpack" and price "$29.99" in the cart
+2026-09-18 15:31:24.335 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP the cart should contain 1 item
+2026-09-18 15:31:24.562 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ the cart should contain 1 item
+2026-09-18 15:31:24.564 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP cart badge should display "1"
+2026-09-18 15:31:25.030 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ cart badge should display "1"
+2026-09-18 15:31:25.031 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP After scenario: tearDown
+2026-09-18 15:31:25.152 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ SCENARIO Verify product is displayed in the cart
+2026-09-18 15:31:25.152 INFO  i.cucumber.core.plugin.CucumberReporter  - END SCENARIO Verify product is displayed in the cart
+2026-09-18 15:31:25.153 INFO  i.cucumber.core.plugin.CucumberReporter  - --------------------
+2026-09-18 15:31:25.153 INFO  i.cucumber.core.plugin.CucumberReporter  - START SCENARIO Remove product from the cart
+2026-09-18 15:31:25.153 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP Before scenario: setUp
+2026-09-18 15:31:25.153 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-09-18 15:31:25.153 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['prefs', '{credentials_enable_service=false, profile.password_manager_enabled=false, profile.password_manager_leak_detection=false}']
+2026-09-18 15:31:25.154 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-09-18 15:31:25.973 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = e284e9758cbfb3d5969c675f90f689e4
+2026-09-18 15:31:25.973 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 153.0.8010.52
+2026-09-18 15:31:25.973 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-09-18 15:31:25.973 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.46.0
+2026-09-18 15:31:25.973 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-09-18 15:31:26.626 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user is logged in with valid credentials
+2026-09-18 15:31:29.381 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user is logged in with valid credentials
+2026-09-18 15:31:29.382 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user should be redirected to the inventory page
+2026-09-18 15:31:29.851 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user should be redirected to the inventory page
+2026-09-18 15:31:29.852 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user adds product "Sauce Labs Backpack" to the cart
+2026-09-18 15:31:30.790 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user adds product "Sauce Labs Backpack" to the cart
+2026-09-18 15:31:30.792 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user clicks on shopping cart icon
+2026-09-18 15:31:31.731 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user clicks on shopping cart icon
+2026-09-18 15:31:31.732 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user removes "Sauce Labs Backpack" from the cart page
+2026-09-18 15:31:32.257 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user removes "Sauce Labs Backpack" from the cart page
+2026-09-18 15:31:32.258 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP the cart page should be empty
+2026-09-18 15:31:38.316 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - Unable to find the element located by 'By.xpath: //*[@data-test='inventory-item']'. Please recheck the objects properties to make sure the desired element is located. 
+2026-09-18 15:31:38.318 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ the cart page should be empty
+2026-09-18 15:31:38.320 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP cart badge should not be visible
+2026-09-18 15:31:40.328 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - Unable to find the element located by 'By.xpath: //*[@data-test = 'shopping-cart-badge']'. Please recheck the objects properties to make sure the desired element is located. 
+2026-09-18 15:31:40.335 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ cart badge should not be visible
+2026-09-18 15:31:40.337 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP After scenario: tearDown
+2026-09-18 15:31:40.431 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ SCENARIO Remove product from the cart
+2026-09-18 15:31:40.432 INFO  i.cucumber.core.plugin.CucumberReporter  - END SCENARIO Remove product from the cart
+2026-09-18 15:31:40.432 INFO  i.cucumber.core.plugin.CucumberReporter  - --------------------
+2026-09-18 15:31:40.432 INFO  i.cucumber.core.plugin.CucumberReporter  - START SCENARIO Continue shopping from cart
+2026-09-18 15:31:40.433 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP Before scenario: setUp
+2026-09-18 15:31:40.433 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-09-18 15:31:40.433 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['prefs', '{credentials_enable_service=false, profile.password_manager_enabled=false, profile.password_manager_leak_detection=false}']
+2026-09-18 15:31:40.434 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-09-18 15:31:41.276 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 1516c32744ecf243bc784c51678b1925
+2026-09-18 15:31:41.277 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 153.0.8010.52
+2026-09-18 15:31:41.277 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-09-18 15:31:41.277 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.46.0
+2026-09-18 15:31:41.277 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-09-18 15:31:41.897 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user is logged in with valid credentials
+2026-09-18 15:31:44.759 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user is logged in with valid credentials
+2026-09-18 15:31:44.761 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user should be redirected to the inventory page
+2026-09-18 15:31:45.224 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user should be redirected to the inventory page
+2026-09-18 15:31:45.225 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user adds product "Sauce Labs Backpack" to the cart
+2026-09-18 15:31:46.173 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user adds product "Sauce Labs Backpack" to the cart
+2026-09-18 15:31:46.174 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user clicks on shopping cart icon
+2026-09-18 15:31:47.136 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user clicks on shopping cart icon
+2026-09-18 15:31:47.137 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user should be on the cart page
+2026-09-18 15:31:47.586 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user should be on the cart page
+2026-09-18 15:31:47.587 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user clicks the Continue Shopping button
+2026-09-18 15:31:48.105 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user clicks the Continue Shopping button
+2026-09-18 15:31:48.106 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user should be redirected back to the inventory page
+2026-09-18 15:31:48.762 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user should be redirected back to the inventory page
+2026-09-18 15:31:48.763 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP After scenario: tearDown
+2026-09-18 15:31:48.859 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ SCENARIO Continue shopping from cart
+2026-09-18 15:31:48.859 INFO  i.cucumber.core.plugin.CucumberReporter  - END SCENARIO Continue shopping from cart
+2026-09-18 15:31:48.860 INFO  i.cucumber.core.plugin.CucumberReporter  - --------------------
+2026-09-18 15:31:48.860 INFO  i.cucumber.core.plugin.CucumberReporter  - START SCENARIO Proceed to checkout from cart
+2026-09-18 15:31:48.860 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP Before scenario: setUp
+2026-09-18 15:31:48.861 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-09-18 15:31:48.861 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['prefs', '{credentials_enable_service=false, profile.password_manager_enabled=false, profile.password_manager_leak_detection=false}']
+2026-09-18 15:31:48.862 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-09-18 15:31:49.661 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = f292f43f0fac4bd62f2c3431045d69ca
+2026-09-18 15:31:49.661 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 153.0.8010.52
+2026-09-18 15:31:49.661 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-09-18 15:31:49.661 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.46.0
+2026-09-18 15:31:49.661 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-09-18 15:31:50.314 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user is logged in with valid credentials
+2026-09-18 15:31:53.158 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user is logged in with valid credentials
+2026-09-18 15:31:53.159 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user should be redirected to the inventory page
+2026-09-18 15:31:53.626 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user should be redirected to the inventory page
+2026-09-18 15:31:53.627 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user adds product "Sauce Labs Backpack" to the cart
+2026-09-18 15:31:54.576 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user adds product "Sauce Labs Backpack" to the cart
+2026-09-18 15:31:54.577 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user clicks on shopping cart icon
+2026-09-18 15:31:55.526 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user clicks on shopping cart icon
+2026-09-18 15:31:55.527 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user should be on the cart page
+2026-09-18 15:31:55.992 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user should be on the cart page
+2026-09-18 15:31:55.993 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user clicks the Checkout button
+2026-09-18 15:31:56.506 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user clicks the Checkout button
+2026-09-18 15:31:56.507 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user should be directed to the Checkout Information Page
+2026-09-18 15:31:57.184 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user should be directed to the Checkout Information Page
+2026-09-18 15:31:57.185 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP After scenario: tearDown
+2026-09-18 15:31:57.279 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ SCENARIO Proceed to checkout from cart
+2026-09-18 15:31:57.280 INFO  i.cucumber.core.plugin.CucumberReporter  - END SCENARIO Proceed to checkout from cart
+
+4 scenarios ([32m4 passed[39m)
+37 steps ([32m37 passed[39m)
+0m 41.18s
+2026-09-18 15:31:57.292 DEBUG testcase.TC_Regression                   - 3: runFeatureFile("Include/features/checkoutInformation/CheckoutInformation.feature")
+2026-09-18 15:31:57.293 INFO  c.k.k.c.c.k.CucumberBuiltinKeywords      - Starting run keyword runFeatureFile: 'Include/features/checkoutInformation/CheckoutInformation.feature' and extract report to folder: '/Users/giyu/Documents/Katalon/MyProjects/QA-Automation-Project/Reports/20260918_152945/SauceDemoWeb/20260918_152945/cucumber_report/1789720317293'...
+2026-09-18 15:31:57.343 INFO  i.cucumber.core.plugin.CucumberReporter  - --------------------
+2026-09-18 15:31:57.343 INFO  i.cucumber.core.plugin.CucumberReporter  - START SCENARIO Submit complete checkout information
+2026-09-18 15:31:57.343 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP Before scenario: setUp
+2026-09-18 15:31:57.343 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-09-18 15:31:57.343 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['prefs', '{credentials_enable_service=false, profile.password_manager_enabled=false, profile.password_manager_leak_detection=false}']
+2026-09-18 15:31:57.344 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-09-18 15:31:58.176 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = d709ebbc8115135b87a60ad866b4d370
+2026-09-18 15:31:58.176 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 153.0.8010.52
+2026-09-18 15:31:58.177 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-09-18 15:31:58.177 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.46.0
+2026-09-18 15:31:58.177 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-09-18 15:31:58.789 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user is logged in with valid credentials
+2026-09-18 15:32:01.559 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user is logged in with valid credentials
+2026-09-18 15:32:01.560 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user adds product "Sauce Labs Backpack" to the cart
+2026-09-18 15:32:02.519 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user adds product "Sauce Labs Backpack" to the cart
+2026-09-18 15:32:02.520 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user clicks on shopping cart icon
+2026-09-18 15:32:03.478 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user clicks on shopping cart icon
+2026-09-18 15:32:03.480 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user clicks the Checkout button
+2026-09-18 15:32:03.999 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user clicks the Checkout button
+2026-09-18 15:32:03.999 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user should be directed to the Checkout Information Page
+2026-09-18 15:32:04.659 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user should be directed to the Checkout Information Page
+2026-09-18 15:32:04.660 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user submits checkout information with first name "Herman", last name "Siswanto", and postal code "12345"
+2026-09-18 15:32:07.602 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user submits checkout information with first name "Herman", last name "Siswanto", and postal code "12345"
+2026-09-18 15:32:07.603 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user should be redirected to the checkout overview page
+2026-09-18 15:32:07.615 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user should be redirected to the checkout overview page
+2026-09-18 15:32:07.616 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP After scenario: tearDown
+2026-09-18 15:32:07.708 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ SCENARIO Submit complete checkout information
+2026-09-18 15:32:07.709 INFO  i.cucumber.core.plugin.CucumberReporter  - END SCENARIO Submit complete checkout information
+2026-09-18 15:32:07.709 INFO  i.cucumber.core.plugin.CucumberReporter  - --------------------
+2026-09-18 15:32:07.709 INFO  i.cucumber.core.plugin.CucumberReporter  - START SCENARIO Show validation error for incomplete checkout information
+2026-09-18 15:32:07.709 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP Before scenario: setUp
+2026-09-18 15:32:07.710 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-09-18 15:32:07.710 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['prefs', '{credentials_enable_service=false, profile.password_manager_enabled=false, profile.password_manager_leak_detection=false}']
+2026-09-18 15:32:07.710 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-09-18 15:32:08.513 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 71b247305d9545e91b6d50a7ac84375c
+2026-09-18 15:32:08.513 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 153.0.8010.52
+2026-09-18 15:32:08.513 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-09-18 15:32:08.513 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.46.0
+2026-09-18 15:32:08.513 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-09-18 15:32:09.117 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user is logged in with valid credentials
+2026-09-18 15:32:11.889 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user is logged in with valid credentials
+2026-09-18 15:32:11.890 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user adds product "Sauce Labs Backpack" to the cart
+2026-09-18 15:32:12.853 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user adds product "Sauce Labs Backpack" to the cart
+2026-09-18 15:32:12.855 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user clicks on shopping cart icon
+2026-09-18 15:32:13.813 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user clicks on shopping cart icon
+2026-09-18 15:32:13.814 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user clicks the Checkout button
+2026-09-18 15:32:14.335 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user clicks the Checkout button
+2026-09-18 15:32:14.336 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user should be directed to the Checkout Information Page
+2026-09-18 15:32:14.999 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user should be directed to the Checkout Information Page
+2026-09-18 15:32:15.001 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user submits checkout information with first name "", last name "Siswanto", and postal code "12345"
+2026-09-18 15:32:17.740 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user submits checkout information with first name "", last name "Siswanto", and postal code "12345"
+2026-09-18 15:32:17.741 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP checkout information should show error message "Error: First Name is required"
+2026-09-18 15:32:18.408 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ checkout information should show error message "Error: First Name is required"
+2026-09-18 15:32:18.409 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP After scenario: tearDown
+2026-09-18 15:32:18.530 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ SCENARIO Show validation error for incomplete checkout information
+2026-09-18 15:32:18.530 INFO  i.cucumber.core.plugin.CucumberReporter  - END SCENARIO Show validation error for incomplete checkout information
+2026-09-18 15:32:18.531 INFO  i.cucumber.core.plugin.CucumberReporter  - --------------------
+2026-09-18 15:32:18.531 INFO  i.cucumber.core.plugin.CucumberReporter  - START SCENARIO Show validation error for incomplete checkout information
+2026-09-18 15:32:18.531 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP Before scenario: setUp
+2026-09-18 15:32:18.532 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-09-18 15:32:18.532 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['prefs', '{credentials_enable_service=false, profile.password_manager_enabled=false, profile.password_manager_leak_detection=false}']
+2026-09-18 15:32:18.532 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-09-18 15:32:19.344 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 2889a6a2a449cd9d76c0c310a61acb92
+2026-09-18 15:32:19.344 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 153.0.8010.52
+2026-09-18 15:32:19.344 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-09-18 15:32:19.344 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.46.0
+2026-09-18 15:32:19.344 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-09-18 15:32:19.941 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user is logged in with valid credentials
+2026-09-18 15:32:22.709 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user is logged in with valid credentials
+2026-09-18 15:32:22.710 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user adds product "Sauce Labs Backpack" to the cart
+2026-09-18 15:32:23.629 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user adds product "Sauce Labs Backpack" to the cart
+2026-09-18 15:32:23.630 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user clicks on shopping cart icon
+2026-09-18 15:32:24.589 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user clicks on shopping cart icon
+2026-09-18 15:32:24.590 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user clicks the Checkout button
+2026-09-18 15:32:25.103 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user clicks the Checkout button
+2026-09-18 15:32:25.103 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user should be directed to the Checkout Information Page
+2026-09-18 15:32:25.765 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user should be directed to the Checkout Information Page
+2026-09-18 15:32:25.766 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user submits checkout information with first name "Herman", last name "", and postal code "12345"
+2026-09-18 15:32:28.503 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user submits checkout information with first name "Herman", last name "", and postal code "12345"
+2026-09-18 15:32:28.504 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP checkout information should show error message "Error: Last Name is required"
+2026-09-18 15:32:29.171 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ checkout information should show error message "Error: Last Name is required"
+2026-09-18 15:32:29.172 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP After scenario: tearDown
+2026-09-18 15:32:29.268 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ SCENARIO Show validation error for incomplete checkout information
+2026-09-18 15:32:29.269 INFO  i.cucumber.core.plugin.CucumberReporter  - END SCENARIO Show validation error for incomplete checkout information
+2026-09-18 15:32:29.272 INFO  i.cucumber.core.plugin.CucumberReporter  - --------------------
+2026-09-18 15:32:29.272 INFO  i.cucumber.core.plugin.CucumberReporter  - START SCENARIO Show validation error for incomplete checkout information
+2026-09-18 15:32:29.272 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP Before scenario: setUp
+2026-09-18 15:32:29.273 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-09-18 15:32:29.274 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['prefs', '{credentials_enable_service=false, profile.password_manager_enabled=false, profile.password_manager_leak_detection=false}']
+2026-09-18 15:32:29.275 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-09-18 15:32:30.089 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 37379d31a386eb17fafa5e0c86dd4ce0
+2026-09-18 15:32:30.089 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 153.0.8010.52
+2026-09-18 15:32:30.089 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-09-18 15:32:30.090 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.46.0
+2026-09-18 15:32:30.090 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-09-18 15:32:30.691 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user is logged in with valid credentials
+2026-09-18 15:32:33.442 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user is logged in with valid credentials
+2026-09-18 15:32:33.443 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user adds product "Sauce Labs Backpack" to the cart
+2026-09-18 15:32:34.419 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user adds product "Sauce Labs Backpack" to the cart
+2026-09-18 15:32:34.420 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user clicks on shopping cart icon
+2026-09-18 15:32:35.378 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user clicks on shopping cart icon
+2026-09-18 15:32:35.379 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user clicks the Checkout button
+2026-09-18 15:32:35.892 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user clicks the Checkout button
+2026-09-18 15:32:35.892 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user should be directed to the Checkout Information Page
+2026-09-18 15:32:36.550 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user should be directed to the Checkout Information Page
+2026-09-18 15:32:36.552 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user submits checkout information with first name "Herman", last name "Siswanto", and postal code ""
+2026-09-18 15:32:39.303 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user submits checkout information with first name "Herman", last name "Siswanto", and postal code ""
+2026-09-18 15:32:39.303 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP checkout information should show error message "Error: Postal Code is required"
+2026-09-18 15:32:39.968 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ checkout information should show error message "Error: Postal Code is required"
+2026-09-18 15:32:39.969 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP After scenario: tearDown
+2026-09-18 15:32:40.066 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ SCENARIO Show validation error for incomplete checkout information
+2026-09-18 15:32:40.067 INFO  i.cucumber.core.plugin.CucumberReporter  - END SCENARIO Show validation error for incomplete checkout information
+
+4 scenarios ([32m4 passed[39m)
+36 steps ([32m36 passed[39m)
+0m 42.770s
+2026-09-18 15:32:40.077 DEBUG testcase.TC_Regression                   - 4: runFeatureFile("Include/features/checkoutOverview/CheckoutOverview.feature")
+2026-09-18 15:32:40.078 INFO  c.k.k.c.c.k.CucumberBuiltinKeywords      - Starting run keyword runFeatureFile: 'Include/features/checkoutOverview/CheckoutOverview.feature' and extract report to folder: '/Users/giyu/Documents/Katalon/MyProjects/QA-Automation-Project/Reports/20260918_152945/SauceDemoWeb/20260918_152945/cucumber_report/1789720360078'...
+2026-09-18 15:32:40.120 INFO  i.cucumber.core.plugin.CucumberReporter  - --------------------
+2026-09-18 15:32:40.120 INFO  i.cucumber.core.plugin.CucumberReporter  - START SCENARIO Verify checkout totals
+2026-09-18 15:32:40.120 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP Before scenario: setUp
+2026-09-18 15:32:40.120 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-09-18 15:32:40.120 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['prefs', '{credentials_enable_service=false, profile.password_manager_enabled=false, profile.password_manager_leak_detection=false}']
+2026-09-18 15:32:40.121 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-09-18 15:32:40.961 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 7cb867cb5fafbb75416af671b4d2c46e
+2026-09-18 15:32:40.961 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 153.0.8010.52
+2026-09-18 15:32:40.961 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-09-18 15:32:40.961 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.46.0
+2026-09-18 15:32:40.961 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-09-18 15:32:41.781 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user is logged in with valid credentials
+2026-09-18 15:32:44.630 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user is logged in with valid credentials
+2026-09-18 15:32:44.631 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user adds product "Sauce Labs Backpack" to the cart
+2026-09-18 15:32:45.581 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user adds product "Sauce Labs Backpack" to the cart
+2026-09-18 15:32:45.583 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user clicks on shopping cart icon
+2026-09-18 15:32:46.533 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user clicks on shopping cart icon
+2026-09-18 15:32:46.539 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user clicks the Checkout button
+2026-09-18 15:32:47.057 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user clicks the Checkout button
+2026-09-18 15:32:47.058 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user submits checkout information with first name "Herman", last name "Siswanto", and postal code "12345"
+2026-09-18 15:32:50.216 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user submits checkout information with first name "Herman", last name "Siswanto", and postal code "12345"
+2026-09-18 15:32:50.217 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user should be on the Checkout Overview page
+2026-09-18 15:32:50.892 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user should be on the Checkout Overview page
+2026-09-18 15:32:50.893 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP checkout overview should show item total "$29.99", tax "$2.40", and total "$32.39"
+2026-09-18 15:32:52.287 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ checkout overview should show item total "$29.99", tax "$2.40", and total "$32.39"
+2026-09-18 15:32:52.288 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP After scenario: tearDown
+2026-09-18 15:32:52.387 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ SCENARIO Verify checkout totals
+2026-09-18 15:32:52.387 INFO  i.cucumber.core.plugin.CucumberReporter  - END SCENARIO Verify checkout totals
+2026-09-18 15:32:52.388 INFO  i.cucumber.core.plugin.CucumberReporter  - --------------------
+2026-09-18 15:32:52.388 INFO  i.cucumber.core.plugin.CucumberReporter  - START SCENARIO Cancel checkout from the overview page
+2026-09-18 15:32:52.388 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP Before scenario: setUp
+2026-09-18 15:32:52.388 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-09-18 15:32:52.388 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['prefs', '{credentials_enable_service=false, profile.password_manager_enabled=false, profile.password_manager_leak_detection=false}']
+2026-09-18 15:32:52.389 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-09-18 15:32:53.205 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = b7b535f8f8b4ea905a3d8bc661769faf
+2026-09-18 15:32:53.206 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 153.0.8010.52
+2026-09-18 15:32:53.206 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-09-18 15:32:53.206 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.46.0
+2026-09-18 15:32:53.206 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-09-18 15:32:53.802 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user is logged in with valid credentials
+2026-09-18 15:32:56.574 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user is logged in with valid credentials
+2026-09-18 15:32:56.575 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user adds product "Sauce Labs Backpack" to the cart
+2026-09-18 15:32:57.515 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user adds product "Sauce Labs Backpack" to the cart
+2026-09-18 15:32:57.516 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user clicks on shopping cart icon
+2026-09-18 15:32:58.476 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user clicks on shopping cart icon
+2026-09-18 15:32:58.478 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user clicks the Checkout button
+2026-09-18 15:32:58.996 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user clicks the Checkout button
+2026-09-18 15:32:58.996 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user submits checkout information with first name "Herman", last name "Siswanto", and postal code "12345"
+2026-09-18 15:33:02.154 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user submits checkout information with first name "Herman", last name "Siswanto", and postal code "12345"
+2026-09-18 15:33:02.155 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user should be on the Checkout Overview page
+2026-09-18 15:33:02.825 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user should be on the Checkout Overview page
+2026-09-18 15:33:02.826 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user cancels checkout from the overview page
+2026-09-18 15:33:03.346 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user cancels checkout from the overview page
+2026-09-18 15:33:03.347 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP user should be redirected to the inventory page
+2026-09-18 15:33:04.015 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ user should be redirected to the inventory page
+2026-09-18 15:33:04.016 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP After scenario: tearDown
+2026-09-18 15:33:04.111 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ SCENARIO Cancel checkout from the overview page
+2026-09-18 15:33:04.111 INFO  i.cucumber.core.plugin.CucumberReporter  - END SCENARIO Cancel checkout from the overview page
+
+2 scenarios ([32m2 passed[39m)
+19 steps ([32m19 passed[39m)
+0m 24.30s
+2026-09-18 15:33:04.119 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Regression/TC_Regression
+2026-09-18 15:33:04.131 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2026-09-18 15:33:04.131 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/SauceDemoWeb
+2026-09-18 15:33:04.131 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

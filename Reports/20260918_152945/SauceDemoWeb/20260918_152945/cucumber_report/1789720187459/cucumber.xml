@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="27.276" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-09-18T08:29:47.641497Z">
+<testcase classname="Login" name="Login with valid credentials" time="5.707">
+<system-out><![CDATA[
+Given user is on the login page.............................................passed
+When user logs in with username "standard_user" and password "secret_sauce".passed
+Then user should be redirected to the inventory page........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login" name="Login with invalid credentials - #1.1" time="4.313">
+<system-out><![CDATA[
+Given user is on the login page.............................................passed
+When user logs in with username "standard_user" and password "wrong_pass"...passed
+Then login should fail with error message "Epic sadface: Username and password do not match any user in this service".passed
+]]></system-out>
+</testcase>
+<testcase classname="Login" name="Login with invalid credentials - #1.2" time="4.316">
+<system-out><![CDATA[
+Given user is on the login page.............................................passed
+When user logs in with username "locked_out_user" and password "secret_sauce".passed
+Then login should fail with error message "Epic sadface: Sorry, this user has been locked out.".passed
+]]></system-out>
+</testcase>
+<testcase classname="Login" name="Login with invalid credentials - #1.3" time="4.299">
+<system-out><![CDATA[
+Given user is on the login page.............................................passed
+When user logs in with username "" and password "secret_sauce"..............passed
+Then login should fail with error message "Epic sadface: Username is required".passed
+]]></system-out>
+</testcase>
+<testcase classname="Login" name="Login with invalid credentials - #1.4" time="4.232">
+<system-out><![CDATA[
+Given user is on the login page.............................................passed
+When user logs in with username "standard_user" and password "".............passed
+Then login should fail with error message "Epic sadface: Password is required".passed
+]]></system-out>
+</testcase>
+<testcase classname="Login" name="Login with invalid credentials - #1.5" time="4.225">
+<system-out><![CDATA[
+Given user is on the login page.............................................passed
+When user logs in with username "" and password ""..........................passed
+Then login should fail with error message "Epic sadface: Username is required".passed
+]]></system-out>
+</testcase>
+</testsuite>
