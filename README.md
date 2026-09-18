@@ -108,6 +108,10 @@ Absolute XPath is avoided to improve maintainability.
 2. Import the project.
 3. Execute the desired Test Suite or Test Case.
 
+## 📊 Test Execution Report
+
+The comprehensive test execution reports, including interactive HTML dashboards and screenshots, are available for download:
+📦 [Download Katalon Test Report (ZIP)](https://github.com/HermanSiswanto/Web-Automation-KatalonStudio/releases/download/v1.0.0/Reports.zip)
 
 ## 👤 Author
 
