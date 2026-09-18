@@ -41,18 +41,29 @@ The objective of this project is to demonstrate:
 ```
 QA-Automation-Challenge
 │
-├── docs
+├── Object Repository/ # Test Object & Dynamic XPath 
+│
+├── include/
+│   ├── features/ # File Gherkin .feature
+│   ├── scripts/groovy/hooks/       # Test execution lifecycle (Open and close browser)
+│	└── scripts/groovy/steps/       # Cucumber Step Definitions
+│
+├── Keywords/                       # Page Object Model (POM) implementation
+│	└── pages/                      # Class Page Objects (InventoryPage, etc)
+│
+├── Test Cases/                     # Test Cases Runner (Smoke, Regression, E2E)
+│
+├── Test Suites/                    # Test Suite
+│
+├── docs/
 │   ├── 01-Test-Strategy.md
 │   ├── 02-Test-Scenarios.md
 │   ├── 03-Assumptions.md
 │   └── 04-Questions-for-PO-BA.md
-
-├── report
-│   ├── katalon
-│  
 │
+├── QA-Automation-Project.prj       # Main Project Katalon
 │
-└── QA-Automation-Challenge (Katalon Project)
+└── README.md
 ```
 
 ---
@@ -84,7 +95,6 @@ Absolute XPath is avoided to improve maintainability.
 
 - Katalon Project
 - Test Scenarios (Gherkin)
-- Bug Reports
 - Assumptions
 - Questions for PO/BA
 
